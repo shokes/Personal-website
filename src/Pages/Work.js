@@ -1,16 +1,18 @@
 import Navbar from '../Components/Navbar';
 import StickyBottomNav from '../Components/StickyBottomNav';
-import country from '../Images/country rest.png';
+import projects from '../data';
+import { Slide } from 'react-awesome-reveal';
+import SingleWork from '../Components/SingleWork';
 
 const Work = function () {
   return (
-    <section className='container'>
+    <section>
       <Navbar />
-      <div>
-        <div>
-          <img src={country} alt='project-image' className='w-30 h-30' />
-          <div></div>
-        </div>
+      <div className='px-60 mt-20 grid grid-cols-2 gap-7 pb-20'>
+        {projects.map((project) => {
+          console.log(project);
+          return <SingleWork key={project.id} {...project} />;
+        })}
       </div>
       <StickyBottomNav />
     </section>
