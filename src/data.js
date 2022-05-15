@@ -19,7 +19,7 @@ const projects = [
     id: 2,
     title: 'landy news',
     image: landy,
-    desc: 'A web app displaying news content as searched for by the user.',
+    desc: 'A web app displaying news content as searched for by the user with a theme switcher.',
     website: 'https://landy-news.netlify.app/',
     github: 'https://github.com/shokes/News-app',
     stack: ['React', 'CSS 3', 'API', 'React-router'],

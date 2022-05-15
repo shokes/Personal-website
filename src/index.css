@@ -7,6 +7,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.dark-theme {
+  --text-link: #ffa7c4;
+  --text-color: #e9ecef;
+  --background: #282c35;
+  --border: #495057;
+}
+
+.light-theme {
+  --text-link: #d23669;
+  --text-color: #343a40;
+  --background: #fff;
+  --border: #dee2e6;
+}
+
 /*
 .container {
   max-width: 60rem;

@@ -3,7 +3,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        IBM: ['IBM Plex Mono', ' monospace'],
+        playfair: ['Playfair Display', 'serif'],
+      },
+
+      colors: {
+        'text-link': 'var(--text-link)',
+        'text-color': 'var(--text-color)',
+        background: 'var(--background)',
+        border: 'var(--border)',
       },
     },
   },
@@ -11,3 +18,4 @@ module.exports = {
 };
 
 //  font-family: 'IBM Plex Mono', monospace;
+//v'Playfair Display', serif;
