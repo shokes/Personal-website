@@ -1,5 +1,3 @@
-import { Slide } from 'react-awesome-reveal';
-
 const SingleWork = function ({ title, desc, github, image, stack, website }) {
   return (
     <div className='rounded-lg p-3 shadow-xl'>
@@ -27,7 +25,11 @@ const SingleWork = function ({ title, desc, github, image, stack, website }) {
         </a>
       </div>
 
-      <img src={image} alt='project' className='w-full h-30 rounded-lg' />
+      <img
+        src={image}
+        alt='project'
+        className='w-full h-56 md:h-64 rounded-lg'
+      />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Work = function () {
       <Navbar />
 
       {/* //  <Zoom cascade triggerOnce duration={600}></Zoom> */}
-      <div className='  max-w-5xl mx-auto mt-20 grid grid-cols-2 gap-7 pb-20'>
+      <div className='grid-cols-1 md:max-w-2xl max-w-sm lg:max-w-5xl mx-auto mt-20 grid lg:grid-cols-2 gap-7 pb-20'>
         <Zoom cascade triggerOnce duration={600}>
           {projects.map((project) => {
             console.log(project);
