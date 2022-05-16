@@ -1,6 +1,6 @@
 const SingleWork = function ({ title, desc, github, image, stack, website }) {
   return (
-    <div className='rounded-lg p-3 shadow-xl'>
+    <div className='rounded-lg p-3 shadow-2xl'>
       <h3 className='text-text-link tracking-wider text-xl font-bold uppercase mb-3 '>
         {title}
       </h3>

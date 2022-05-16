@@ -7,7 +7,7 @@ const Hero = function () {
   const { theme } = useGlobalContext();
   return (
     <section>
-      <div className='max-w-sm md:max-w-2xl  lg:flex mt-36 justify-center items-center gap-x-48  lg:max-w-5xl mx-auto overflow-x-hidden '>
+      <div className='max-w-sm md:max-w-2xl md:pb-24 lg:flex mt-36 justify-center items-center gap-x-48  lg:max-w-5xl mx-auto overflow-x-hidden '>
         <Fade duration={3000}>
           {theme === 'dark-theme' ? (
             <div className=''>
@@ -19,7 +19,7 @@ const Hero = function () {
                 frontend{' '}
               </p>
               <h1 className=' text-text-link font-semibold text-7xl capitalize mb-2'>
-                developer;
+                developer
               </h1>
 
               <p className='text-xl font-playfair text-text-color'>
@@ -38,7 +38,7 @@ const Hero = function () {
                 website{' '}
               </p>
               <h1 className=' text-text-link font-semibold text-7xl capitalize mb-2'>
-                developer;
+                developer
               </h1>
 
               <p className='text-xl font-playfair text-text-color'>

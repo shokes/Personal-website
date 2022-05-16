@@ -5,7 +5,7 @@ import { Zoom, Slide } from 'react-awesome-reveal';
 import GoToTop from '../GoToTop';
 const About = function () {
   return (
-    <section className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto  '>
+    <section className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto overflow-x-hidden '>
       <Navbar />
       <div className='grid grid-cols-1  lg:flex mt-20 space-x-0 lg:space-x-20 '>
         <Zoom triggerOnce>
@@ -15,7 +15,7 @@ const About = function () {
           <h3 className='text-lg text-text-color font-bold mt-10 lg:mt-0'>
             Hello world. ✨
           </h3>
-          <Slide direction='up' triggerOnce>
+          <Slide direction='up' triggerOnce delay={200}>
             <p className='mb-6 mt-3 text-text-color text-xl tracking-wide '>
               Hi, I’m Oshoke Oyati, a meticulous Frontend Developer currently
               based in Nigeria and I enjoy what I do. I am passionate about
