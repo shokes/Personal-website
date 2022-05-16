@@ -5,7 +5,7 @@ import { Zoom, Slide } from 'react-awesome-reveal';
 import GoToTop from '../GoToTop';
 const About = function () {
   return (
-    <section className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto overflow-x-hidden md:overflow-x-visble '>
+    <section className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto overflow-hidden'>
       <Navbar />
       <div className='grid grid-cols-1  lg:flex mt-20 space-x-0 lg:space-x-20 '>
         <Zoom triggerOnce>
