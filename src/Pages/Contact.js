@@ -8,7 +8,7 @@ const Contact = function () {
     <section>
       <Navbar />
 
-      <div className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto  mt-20'>
+      <div className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto  mt-20 md:pb-24'>
         <h2 className='text-4xl capitalize text-center text-text-color mb-8 font-bold'>
           get in touch!
         </h2>
