@@ -35,14 +35,14 @@ const Hero = function () {
               </p>
 
               <p className=' text-text-link font-semibold text-7xl capitalize'>
-                website{' '}
+                software{' '}
               </p>
               <h1 className=' text-text-link font-semibold text-7xl capitalize mb-2'>
-                developer
+                engineer
               </h1>
 
               <p className='text-xl font-playfair text-text-color'>
-                A problem solving language learning beast, with the keen eye of
+                A problem-solving language-learning beast, with the keen eye of
                 a growth engineer.📈
               </p>
             </div>
