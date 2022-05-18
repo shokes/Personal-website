@@ -77,7 +77,7 @@ const About = function () {
                 <li className='text-text-color text-lg '>Git/GitHub</li>
                 <li className='text-text-color text-lg '> Vs Code</li>
                 <li className='text-text-color  text-lg'>Command Line</li>
-                <li className='text-text-color text-lg'>Responsive Design</li>
+
                 <li className='text-text-color text-lg '>Firebase</li>
               </ul>
             </div>
@@ -124,7 +124,7 @@ const About = function () {
             </div>
 
             <div className='md:w-1/2'>
-              <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4'>
+              <div className='font-semibold text-xl capitalize md:tracking-widest text-text-color md:text-2xl mt-4'>
                 {' '}
                 Frontend Developer
               </div>
@@ -146,7 +146,7 @@ const About = function () {
             </div>
 
             <div className='md:w-1/2'>
-              <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4'>
+              <div className='font-semibold text-xl capitalize md:tracking-widest text-text-color md:text-2xl mt-4'>
                 {' '}
                 Mechanical Engineer
               </div>
@@ -169,7 +169,7 @@ const About = function () {
             </div>
 
             <div className='md:w-1/2'>
-              <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4'>
+              <div className='font-semibold text-xl capitalize md:tracking-widest text-text-color md:text-2xl mt-4'>
                 {' '}
                 Frontend Developer Student
               </div>
