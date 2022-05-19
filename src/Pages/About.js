@@ -46,7 +46,7 @@ const About = function () {
         </div>
       </div>
 
-      <div className='mt-36 '>
+      <div className='mt-20 md:mt-36 '>
         <h3 className='text-text-color font-extrabold text-3xl capitalize mb-4 tracking-widest '>
           skills
         </h3>
