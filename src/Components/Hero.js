@@ -82,7 +82,7 @@ const Hero = function () {
                 a growth engineer.📈
               </p>
 
-              <div className='flex gap-x-5'>
+              <div className='flex space-x-4'>
                 <a
                   href='https://twitter.com/Airshokes'
                   target='_blank'
