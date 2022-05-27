@@ -2,12 +2,13 @@ import cartoon from '../Images/oshoke-cartoon.png';
 import oshokelight from '../Images/oshoke-light.png';
 import { Slide, Fade } from 'react-awesome-reveal';
 import { useGlobalContext } from '../context';
-
+import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { GrMail } from 'react-icons/gr';
 const Hero = function () {
   const { theme } = useGlobalContext();
   return (
     <section>
-      <div className='max-w-sm md:max-w-2xl md:pb-24 lg:flex mt-36 justify-center items-center gap-x-48  lg:max-w-5xl mx-auto overflow-x-hidden '>
+      <div className='max-w-sm md:max-w-2xl md:pb-24 lg:flex mt-28 justify-center items-center gap-x-48  lg:max-w-5xl mx-auto overflow-x-hidden '>
         <Fade duration={3000}>
           {theme === 'dark-theme' ? (
             <div className=''>
@@ -22,11 +23,46 @@ const Hero = function () {
                 developer
               </h1>
 
-              <p className='text-xl font-playfair text-text-color'>
+              <p className='text-xl font-playfair text-text-color mb-3'>
                 I'm a Frontend Developer currently based in Nigeria with
                 professional experience in building and delivering end to end
                 solutions for digital products. 🚀
               </p>
+
+              <div className='flex gap-x-5'>
+                <a
+                  href='https://twitter.com/Airshokes'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <FaTwitter className='w-7 h-7 text-text-link   font-semibold' />
+                </a>
+                <a
+                  className=' text-text-link text-xl font-semibold '
+                  href='https://github.com/shokes'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <FaGithub className='w-7 h-7 text-text-link   font-semibold' />
+                </a>
+                <a
+                  className=' text-text-link text-xl font-semibold'
+                  href='https://www.linkedin.com/in/oshoke-oyati?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7bIwlnH1TeKUJ6r3jWAS6g%3D%3D'
+                  rel='noreferrer'
+                  target='_blank'
+                >
+                  <FaLinkedin className='w-7 h-7 text-text-link   font-semibold' />
+                </a>
+
+                <a
+                  className='  text-xl font-semibold '
+                  href='mailto:oyatioshoke@yahoo.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <GrMail className='w-7 h-7 text-text-link   font-semibold' />
+                </a>
+              </div>
             </div>
           ) : (
             <div className=''>
@@ -41,10 +77,44 @@ const Hero = function () {
                 engineer
               </h1>
 
-              <p className='text-xl font-playfair text-text-color'>
+              <p className='text-xl font-playfair text-text-color mb-3'>
                 A problem-solving language-learning beast, with the keen eye of
                 a growth engineer.📈
               </p>
+
+              <div className='flex gap-x-5'>
+                <a
+                  href='https://twitter.com/Airshokes'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <FaTwitter className='w-7 h-7 text-text-link   font-semibold' />
+                </a>
+                <a
+                  className=' text-text-link text-xl font-semibold '
+                  href='https://github.com/shokes'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <FaGithub className='w-7 h-7 text-text-link font-semibold' />
+                </a>
+                <a
+                  href='https://www.linkedin.com/in/oshoke-oyati?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7bIwlnH1TeKUJ6r3jWAS6g%3D%3D'
+                  rel='noreferrer'
+                  target='_blank'
+                >
+                  <FaLinkedin className='w-7 h-7 text-text-link   font-semibold' />
+                </a>
+
+                <a
+                  className='  text-xl font-semibold '
+                  href='mailto:oyatioshoke@yahoo.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <GrMail className='w-7 h-7 text-text-link  font-semibold' />
+                </a>
+              </div>
             </div>
           )}
         </Fade>
