@@ -7,7 +7,10 @@ const About = function () {
   return (
     <section className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto overflow-hidden'>
       <Navbar />
-      <div className='grid grid-cols-1  lg:flex mt-20 space-x-0 lg:space-x-20 '>
+      <h2 className='mb-12 text-4xl text-text-color  mt-20 font-semibold tracking-wider'>
+        <span className='text-text-link'> ~/</span>about
+      </h2>
+      <div className='grid grid-cols-1  lg:flex space-x-0 lg:space-x-20 '>
         <Zoom triggerOnce>
           <img className='w-50 h-50 rounded-lg' src={Shokes} alt='Shokes' />
         </Zoom>
@@ -24,8 +27,7 @@ const About = function () {
 
             <p className='mb-6 text-text-color text-xl tracking-wide'>
               Proficient in vanilla javascript, hence can easily adapt to any of
-              its frameworks depending on the requirements of the job. Because
-              I'm a huge React fan, this website was built with React.
+              its frameworks depending on the requirements of the job.
             </p>
 
             <p className='mb-6 text-text-color text-xl tracking-wide'>
