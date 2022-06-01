@@ -34,6 +34,10 @@ body {
   word-spacing: 3px;
 }
 
+.mail {
+  word-wrap: break-word;
+}
+
 @media (min-width: 64em) {
   .project-image {
     transition: all 0.9s;
