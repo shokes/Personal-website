@@ -34,10 +34,12 @@ body {
   word-spacing: 3px;
 }
 
-.project-image {
-  transition: all 0.9s;
-}
+@media (min-width: 64em) {
+  .project-image {
+    transition: all 0.9s;
+  }
 
-.project-image:hover {
-  transform: scale(1.2);
+  .project-image:hover {
+    transform: scale(1.2);
+  }
 }

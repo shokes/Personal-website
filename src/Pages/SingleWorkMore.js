@@ -32,7 +32,7 @@ const SingleWorkMore = function () {
       <nav className='  flex items-center justify-between text-text-color'>
         <Link
           to='/work'
-          className='text-2xl  tracking-wider font-extrabold underline'
+          className='text-xl lg:text-2xl  tracking-wider font-extrabold underline'
         >
           back to projects
         </Link>

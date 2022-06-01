@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import GoToTop from '../GoToTop';
-import { Fade, fade, Slide } from 'react-awesome-reveal';
+import { Fade, Slide } from 'react-awesome-reveal';
 
 const SingleWork = function ({ title, desc, mainImage, id }) {
   return (
     <section>
-      <div className='grid grid-cols-1 lg:flex justify-between items-center mb-10'>
+      <div className='grid grid-cols-1 lg:flex justify-between items-center mb-10 '>
         <div className=''>
           <Link to={`/work/${id}`}>
             <Fade triggerOnce duration={2000}>
@@ -27,8 +27,8 @@ const SingleWork = function ({ title, desc, mainImage, id }) {
         <Link to={`/work/${id}`}>
           <img
             src={mainImage}
-            alt='project image'
-            className='w-[29rem] h-[35rem] project-image '
+            alt='project'
+            className='w-[29rem] h-[30rem] lg:h-[35rem] project-image '
           />
         </Link>
       </div>
