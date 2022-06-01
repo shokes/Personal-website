@@ -5,7 +5,7 @@ import { Fade, Slide } from 'react-awesome-reveal';
 const SingleWork = function ({ title, desc, mainImage, id }) {
   return (
     <section>
-      <div className='grid grid-cols-1 lg:flex justify-between items-center mb-10 '>
+      <div className='grid grid-cols-1 lg:flex justify-between items-center mb-10 overflow-hidden'>
         <div className=''>
           <Link to={`/work/${id}`}>
             <Fade triggerOnce duration={2000}>
