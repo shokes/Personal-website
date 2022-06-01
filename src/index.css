@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Archivo', sans-serif;
+}
+
 .dark-theme {
   --text-link: #ffa7c4;
   --text-color: #e9ecef;
@@ -22,5 +26,18 @@
   --border: #dee2e6;
 }
 
+.title {
+  word-spacing: 1rem;
+}
 
+.para {
+  word-spacing: 3px;
+}
 
+.project-image {
+  transition: all 0.9s;
+}
+
+.project-image:hover {
+  transform: scale(1.2);
+}

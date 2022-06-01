@@ -4,6 +4,7 @@ import About from './Pages/About';
 // import Contact from './Pages/Contact';
 import Error from './Pages/Error';
 import Work from './Pages/Work';
+import SingleWorkMore from './Pages/SingleWorkMore';
 
 const App = function () {
   return (
@@ -12,7 +13,7 @@ const App = function () {
         <Route exact path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/work' element={<Work />} />
-        {/* <Route path='/contact' element={<Contact />} /> */}
+        <Route path='/work/:id' element={<SingleWorkMore />} />
         <Route path='*' element={<Error />} />
       </Routes>
     </Router>

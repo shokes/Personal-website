@@ -2,13 +2,16 @@ import Navbar from '../Components/Navbar';
 import StickyBottomNav from '../Components/StickyBottomNav';
 import Shokes from '../Images/shokes.jpeg';
 import { Zoom, Slide } from 'react-awesome-reveal';
+import { BsDashLg } from 'react-icons/bs';
 import GoToTop from '../GoToTop';
+
 const About = function () {
   return (
     <section className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto overflow-hidden'>
       <Navbar />
-      <h2 className='mb-12 text-4xl text-text-color  mt-20 font-semibold tracking-wider'>
-        <span className='text-text-link'> ~/</span>about
+      <h2 className='mb-12 text-3xl text-text-color  mt-20 font-semibold tracking-wider'>
+        <BsDashLg className='text-text-link mr-1 inline' />
+        about
       </h2>
       <div className='grid grid-cols-1  lg:flex space-x-0 lg:space-x-20 '>
         <Zoom triggerOnce>
@@ -19,18 +22,18 @@ const About = function () {
             Hello world. ✨
           </h3>
           <Slide direction='up' triggerOnce delay={200}>
-            <p className='mb-6 mt-3 text-text-color text-xl tracking-wide '>
+            <p className='mb-6 mt-3 text-text-color text-xl tracking-wide para '>
               Hi, I’m Oshoke Oyati, a meticulous Frontend Developer currently
               based in Nigeria and I enjoy what I do. I am passionate about
               solving complex problems with responsive website design.
             </p>
 
-            <p className='mb-6 text-text-color text-xl tracking-wide'>
+            <p className='mb-6 text-text-color text-xl tracking-wide para'>
               Proficient in vanilla javascript, hence can easily adapt to any of
               its frameworks depending on the requirements of the job.
             </p>
 
-            <p className='mb-6 text-text-color text-xl tracking-wide'>
+            <p className='mb-6 text-text-color text-xl tracking-wide para'>
               I'm thrilled by logic; and I solve problems for fun. When I'm not
               working I'm either watching football games, catching up on my
               latest shows, listening to music or surfing the internet.

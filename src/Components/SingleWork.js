@@ -1,36 +1,39 @@
-const SingleWork = function ({ title, desc, github, image, stack, website }) {
-  return (
-    <div className='rounded-lg p-3 shadow-2xl'>
-      <h3 className='text-text-link tracking-wider text-xl font-bold uppercase mb-3 '>
-        {title}
-      </h3>
-      <p className='mb-3 text-text-color text-base'>{desc}</p>
-      <p className='mb-3 text-text-color font-semibold'>{stack.join(', ')}.</p>
-      <div className='flex justify-between mb-1'>
-        <a
-          className='text-text-link font-medium capitalize'
-          target='_blank'
-          href={website}
-          rel='noreferrer'
-        >
-          live
-        </a>
-        <a
-          className='text-text-link font-medium capitalize'
-          target='_blank'
-          href={github}
-          rel='noreferrer'
-        >
-          GitHub
-        </a>
-      </div>
+import { Link } from 'react-router-dom';
+import GoToTop from '../GoToTop';
+import { Fade, fade, Slide } from 'react-awesome-reveal';
 
-      <img
-        src={image}
-        alt='project'
-        className='w-full h-56 md:h-64 rounded-lg'
-      />
-    </div>
+const SingleWork = function ({ title, desc, mainImage, id }) {
+  return (
+    <section>
+      <div className='grid grid-cols-1 lg:flex justify-between items-center mb-10'>
+        <div className=''>
+          <Link to={`/work/${id}`}>
+            <Fade triggerOnce duration={2000}>
+              <h2 className='text-5xl title uppercase text-text-link font-semibold cursor-pointer w-[25rem]'>
+                {title}{' '}
+              </h2>
+            </Fade>
+
+            <Slide delay={200} triggerOnce>
+              <div className='border-4 border-text-link  w-1/2 mb-6'></div>
+            </Slide>
+          </Link>
+          <Slide delay={400} triggerOnce direction='up'>
+            <p className='text-text-color mb-3 lg:mb-0 text-2xl w-[18rem]'>
+              {desc}
+            </p>
+          </Slide>
+        </div>
+        <Link to={`/work/${id}`}>
+          <img
+            src={mainImage}
+            alt='project image'
+            className='w-[29rem] h-[35rem] project-image '
+          />
+        </Link>
+      </div>
+      <GoToTop />
+    </section>
   );
 };
 

@@ -16,14 +16,14 @@ const Hero = function () {
                 Hello, I'm <b>Oshoke Oyati</b>
               </p>
 
-              <p className=' text-text-link font-semibold text-7xl capitalize'>
+              <h1 className=' text-text-link text-7xl capitalize font-semibold '>
                 frontend{' '}
-              </p>
-              <h1 className=' text-text-link font-semibold text-7xl capitalize mb-2'>
+              </h1>
+              <h1 className=' text-text-link  text-7xl font-semibold  capitalize mb-2'>
                 developer
               </h1>
 
-              <p className='text-xl font-playfair text-text-color mb-3'>
+              <p className='text-xl  text-text-color mb-3'>
                 I'm a Frontend Developer currently based in Nigeria with
                 professional experience in building and delivering end to end
                 solutions for digital products. 🚀
