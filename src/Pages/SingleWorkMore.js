@@ -119,6 +119,22 @@ const SingleWorkMore = function () {
         >
           <p> {para3} </p>
         </Slide>
+        <p className='text-text-color text-xl'>
+          <span className='mr-1'> I also built </span>
+          {projects
+            .filter((item) => +id !== item.id)
+            .map((item) => {
+              return (
+                <Link
+                  to={`/work/${item.id}`}
+                  key={item.id}
+                  className='mb-6 mr-2 text-text-link uppercase  para underline'
+                >
+                  {item.title}
+                </Link>
+              );
+            })}
+        </p>
       </div>
       <GoToTop />
     </section>
