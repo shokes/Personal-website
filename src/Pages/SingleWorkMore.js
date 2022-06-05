@@ -130,7 +130,7 @@ const SingleWorkMore = function () {
                   key={item.id}
                   className='mb-6 mr-2 text-text-link uppercase  para underline'
                 >
-                  {item.title}
+                  {item.title},
                 </Link>
               );
             })}
