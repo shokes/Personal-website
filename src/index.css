@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Archivo', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .dark-theme {
