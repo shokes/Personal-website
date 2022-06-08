@@ -8,9 +8,9 @@ const Contact = function () {
   return (
     <section>
       <Navbar />
-      <div className='md:max-w-2xl max-w-sm lg:max-w-5xl mx-auto mt-20 pb-20'>
-        <h2 className='mb-12 text-3xl text-text-color font-semibold tracking-wider'>
-          <BsDashLg className='text-text-link mr-1 inline' />
+      <div className='container mt-20 pb-20'>
+        <h2 className='mb-12 text-3xl text-text-color mt-20 font-semibold tracking-wider'>
+          <BsDashLg className='text-text-link mr-1 inline ' />
           contact
         </h2>
         <div className='text-center'>

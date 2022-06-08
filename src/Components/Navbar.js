@@ -8,7 +8,8 @@ const Navbar = function () {
 
   return (
     <section>
-      <nav className=' pt-12 max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto flex items-center justify-between text-text-color'>
+      {/* <nav className=' pt-12 max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto flex items-center justify-between text-text-color'> */}
+      <nav className=' pt-10 container flex items-center justify-between text-text-color'>
         <Link
           to='/'
           className='text-2xl  tracking-wider uppercase font-extrabold'
