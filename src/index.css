@@ -39,36 +39,9 @@ body {
   word-wrap: break-word;
 }
 
-.container {
-  max-width: 60rem;
-  margin: 3rem auto 0 auto;
-}
-
 @media (max-width: 63em) {
-  .container {
-    max-width: 50rem;
-  }
-
   html {
-    font-size: 78.25%;
-  }
-}
-
-@media (max-width: 52em) {
-  .container {
-    max-width: 40rem;
-  }
-}
-
-@media (max-width: 44em) {
-  .container {
-    max-width: 35rem;
-  }
-}
-
-@media (max-width: 36em) {
-  .container {
-    max-width: 28.5rem;
+    font-size: 95%;
   }
 }
 

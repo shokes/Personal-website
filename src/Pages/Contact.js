@@ -8,7 +8,7 @@ const Contact = function () {
   return (
     <section>
       <Navbar />
-      <div className='container mt-20 pb-20'>
+      <div className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto mt-20 pb-20'>
         <h2 className='mb-12 text-3xl text-text-color mt-20 font-semibold tracking-wider'>
           <BsDashLg className='text-text-link mr-1 inline ' />
           contact
