@@ -23,7 +23,7 @@ const nav = [
 const StickyBottomNav = function () {
   return (
     <section className='px-48'>
-      <div className='bottom-0 bg-background ease-in duration-300 left-0 right-0 fixed text-text-color pb-3 pt-3'>
+      <div className='bottom-0 bg-background ease-in duration-300 left-0 right-0 fixed text-text-color pb-3 pt-3 '>
         <ul className='flex  justify-evenly text-xl capitalize'>
           {nav.map((item) => (
             <NavLink
@@ -31,7 +31,7 @@ const StickyBottomNav = function () {
               key={item.id}
               className='hover:text-text-link'
             >
-              <div className='font-semibold'>{item.title}</div>
+              <div className='font-semibold '>{item.title}</div>
             </NavLink>
           ))}
         </ul>
