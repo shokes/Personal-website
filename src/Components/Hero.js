@@ -2,8 +2,8 @@ import cartoon from '../Images/oshoke-cartoon.png';
 import oshokelight from '../Images/oshoke-light.png';
 import { Slide, Fade } from 'react-awesome-reveal';
 import { useGlobalContext } from '../context';
-import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import { GrMail } from 'react-icons/gr';
+import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi';
+
 const Hero = function () {
   const { theme } = useGlobalContext();
   return (
@@ -35,7 +35,7 @@ const Hero = function () {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <FaTwitter className='w-7 h-7 text-text-link   font-semibold' />
+                  <FiTwitter className='w-7 h-7 text-text-link   font-semibold' />
                 </a>
                 <a
                   className=' text-text-link text-xl font-semibold '
@@ -43,7 +43,7 @@ const Hero = function () {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <FaGithub className='w-7 h-7 text-text-link   font-semibold' />
+                  <FiGithub className='w-7 h-7 text-text-link   font-semibold' />
                 </a>
                 <a
                   className=' text-text-link text-xl font-semibold'
@@ -51,7 +51,7 @@ const Hero = function () {
                   rel='noreferrer'
                   target='_blank'
                 >
-                  <FaLinkedin className='w-7 h-7 text-text-link   font-semibold' />
+                  <FiLinkedin className='w-7 h-7 text-text-link   font-semibold' />
                 </a>
 
                 <a
@@ -60,7 +60,7 @@ const Hero = function () {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <GrMail className='w-7 h-7 text-text-link   font-semibold' />
+                  <FiMail className='w-7 h-7 text-text-link   font-semibold' />
                 </a>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Hero = function () {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <FaTwitter className='w-7 h-7 text-text-link   font-semibold' />
+                  <FiTwitter className='w-7 h-7 text-text-link   font-semibold' />
                 </a>
                 <a
                   className=' text-text-link text-xl font-semibold '
@@ -96,14 +96,14 @@ const Hero = function () {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <FaGithub className='w-7 h-7 text-text-link font-semibold' />
+                  <FiGithub className='w-7 h-7 text-text-link font-semibold' />
                 </a>
                 <a
                   href='https://www.linkedin.com/in/oshoke-oyati?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7bIwlnH1TeKUJ6r3jWAS6g%3D%3D'
                   rel='noreferrer'
                   target='_blank'
                 >
-                  <FaLinkedin className='w-7 h-7 text-text-link   font-semibold' />
+                  <FiLinkedin className='w-7 h-7 text-text-link   font-semibold' />
                 </a>
 
                 <a
@@ -112,7 +112,7 @@ const Hero = function () {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <GrMail className='w-7 h-7 text-text-link  font-semibold' />
+                  <FiMail className='w-7 h-7 text-text-link  font-semibold' />
                 </a>
               </div>
             </div>
