@@ -106,7 +106,7 @@ const projects = [
     image: overreacted,
     image2: overreacted2,
     desc: "A clone of Dan Abramov's overreacted blog.",
-    website: 'https://dan-clone.netlify.app/',
+    website: 'https://dan-abramov-blog-clone.vercel.app/',
     github: 'https://github.com/shokes/Dan-abramov-blog-clone',
     stack: ['React', 'CSS 3'],
     role: 'Frontend development ',
