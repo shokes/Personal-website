@@ -44,13 +44,25 @@ body {
   word-wrap: break-word;
 }
 
-@media (max-width: 63em) {
+.container {
+  max-width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 68em) {
+  .container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   html {
-    font-size: 95%;
+    font-size: 85%;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 60em) {
   .project img {
     transition: all 0.9s;
     object-fit: cover;
@@ -67,5 +79,11 @@ body {
 
   .project:hover .see-more {
     opacity: 1;
+  }
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 70%;
   }
 }

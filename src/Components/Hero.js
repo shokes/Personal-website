@@ -8,7 +8,7 @@ const Hero = function () {
   const { theme } = useGlobalContext();
   return (
     <section>
-      <div className='max-w-sm md:max-w-2xl md:pb-24 lg:flex mt-28 justify-center items-center gap-x-48  lg:max-w-5xl mx-auto overflow-x-hidden '>
+      <div className='container md:pb-24 lg:flex mt-28 justify-center items-center gap-x-48   overflow-x-hidden '>
         <Fade duration={3000}>
           {theme === 'dark-theme' ? (
             <div className=''>

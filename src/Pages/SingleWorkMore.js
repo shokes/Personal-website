@@ -28,7 +28,7 @@ const SingleWorkMore = function () {
   } = work;
 
   return (
-    <section className='pt-12 max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto'>
+    <section className='pt-12 container'>
       <nav className='  flex items-center justify-between text-text-color'>
         <Link
           to='/work'

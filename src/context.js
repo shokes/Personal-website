@@ -23,7 +23,7 @@ const AppProvider = function ({ children }) {
   const themeHandler = () => {
     if (theme === 'dark-theme') {
       setTheme('light-theme');
-    } else {
+    } else if (theme === 'light-theme') {
       setTheme('dark-theme');
     }
   };

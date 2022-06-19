@@ -7,7 +7,7 @@ import GoToTop from '../GoToTop';
 
 const About = function () {
   return (
-    <section className='max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto  pb-20 overflow-x-hidden'>
+    <section className='container  pb-20 overflow-x-hidden'>
       <Navbar />
       <h2 className='mb-12 text-3xl text-text-color  mt-20 font-semibold tracking-wider'>
         <BsDashLg className='text-text-link mr-1 inline' />

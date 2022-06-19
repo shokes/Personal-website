@@ -15,7 +15,7 @@ const SingleWork = function ({ title, desc, mainImage, id }) {
             </Fade>
 
             <Slide delay={200} triggerOnce>
-              <div className='border-4 border-text-link  w-1/2 mb-6'></div>
+              <div className='border-4 border-text-link  w-1/2 md:w-1/4 mb-6 lg:w-1/2'></div>
             </Slide>
           </Link>
           <Slide delay={400} triggerOnce direction='up'>
@@ -24,16 +24,24 @@ const SingleWork = function ({ title, desc, mainImage, id }) {
             </p>
           </Slide>
         </div>
-        <Link to={`/work/${id}`} className='relative project '>
+        <Link
+          to={`/work/${id}`}
+          className=' relative project w-full md:w-[29rem] '
+        >
+          {/* <div className=''> */}
           <img
             src={mainImage}
             alt='project'
-            className='w-[29rem] h-[30rem] lg:h-[35rem] project-image rounded-lg'
+            className='w-full md:w-[29rem] h-[30rem] lg:h-[35rem] project-image rounded-lg'
           />
-
-          <span className='absolute top-1/3 font-semibold right-1/2  md:right-[27rem] lg:right-1/2 text-lg see-more translate-y-[1.5rem] translate-x-1/2 bg-white  p-14 w-5 h-5 flex items-center justify-center rounded-full text-black'>
+          {/* w-[29rem] */}
+          {/* <span className='absolute top-1/3 font-semibold right-0  md:right-[27rem] lg:right-1/2 text-lg see-more  bg-white  p-14 w-5 h-5 flex items-center justify-center rounded-full text-black'>
+              See more
+            </span> */}
+          <span className='absolute top-1/3 font-semibold right-1/2 bg-white translate-y-[1.5rem] translate-x-1/2  see-more     p-14 w-5 h-5 flex items-center justify-center rounded-full text-black'>
             See more
           </span>
+          {/* </div> */}
         </Link>
       </div>
       <GoToTop />
