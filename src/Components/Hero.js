@@ -37,7 +37,7 @@ const Hero = function () {
                 frontend{' '}
               </h1>
               <h1 className=' text-text-link  text-7xl font-semibold  capitalize mb-2'>
-                developer
+                developer;
               </h1>
 
               <p className='text-xl  text-text-color mb-3'>
@@ -95,7 +95,7 @@ const Hero = function () {
                 software{' '}
               </p>
               <h1 className=' text-text-link font-semibold text-7xl capitalize mb-2'>
-                engineer
+                engineer;
               </h1>
 
               <p className='text-xl font-playfair text-text-color mb-3'>
@@ -103,7 +103,7 @@ const Hero = function () {
                 a growth engineer.📈
               </p>
 
-              <div className='flex space-x-4'>
+              <div className='flex space-x-4 mb-2'>
                 <a
                   href='https://twitter.com/Airshokes'
                   target='_blank'
@@ -136,6 +136,9 @@ const Hero = function () {
                   <FiMail className='w-7 h-7 text-text-link  font-semibold' />
                 </a>
               </div>
+              <span className='flex items-center text-xl  text-text-color'>
+                {nigerianTime} <p className='ml-2'> WAT</p>
+              </span>
             </div>
           )}
         </Fade>
