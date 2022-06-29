@@ -3,9 +3,26 @@ import oshokelight from '../Images/oshoke-light.png';
 import { Slide, Fade } from 'react-awesome-reveal';
 import { useGlobalContext } from '../context';
 import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi';
+import { useState } from 'react';
 
 const Hero = function () {
   const { theme } = useGlobalContext();
+  const [nigerianTime, setNigerianTime] = useState('');
+
+  const checkTime = () => {
+    const now = new Date();
+    const options = {
+      hour: 'numeric',
+      minute: 'numeric',
+    };
+
+    setNigerianTime(Intl.DateTimeFormat('en-NG', options).format(now));
+  };
+
+  setInterval(() => {
+    checkTime();
+  }, 500);
+
   return (
     <section>
       <div className='container md:pb-24 lg:flex mt-28 justify-center items-center gap-x-48   overflow-x-hidden '>
@@ -29,7 +46,7 @@ const Hero = function () {
                 solutions for digital products. 🚀
               </p>
 
-              <div className='flex space-x-4'>
+              <div className='flex space-x-4 mb-2'>
                 <a
                   href='https://twitter.com/Airshokes'
                   target='_blank'
@@ -63,6 +80,10 @@ const Hero = function () {
                   <FiMail className='w-7 h-7 text-text-link   font-semibold' />
                 </a>
               </div>
+
+              <span className='flex items-center text-xl  text-text-color'>
+                {nigerianTime} <p className='ml-2'> WAT</p>
+              </span>
             </div>
           ) : (
             <div className=''>

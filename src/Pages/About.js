@@ -22,7 +22,7 @@ const About = function () {
             <h3 className='text-lg text-text-color font-bold mt-10 lg:mt-0'>
               Hello world. ✨
             </h3>
-            <Slide direction='up' triggerOnce delay={200}>
+            <Slide direction='up' delay={200}>
               <p className='mb-6 mt-3 text-text-color text-xl tracking-wide para '>
                 Hi, I’m Oshoke Oyati, a meticulous Frontend Developer currently
                 based in Nigeria and I enjoy what I do. I am passionate about
@@ -63,28 +63,29 @@ const About = function () {
           <Slide direction='up' triggerOnce>
             <div className='grid grid-cols-1 md:flex '>
               <div className='w-1/2'>
-                <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4 mb-2'>
+                <div className='font-bold capitalize text-text-color text-2xl mt-4 mb-2'>
                   languages/frameworks
                 </div>
                 <ul>
                   <li className='text-text-color text-lg '>HTML 5</li>
                   <li className='text-text-color text-lg'>CSS 3</li>
                   <li className='text-text-color text-lg'>TailwindCss</li>
+                  <li className='text-text-color text-lg'>Styled components</li>
                   <li className='text-text-color text-lg'>JavaScript</li>
                   <li className='text-text-color text-lg'>ReactJs</li>
+                  <li className='text-text-color text-lg'>Redux</li>
+                  <li className='text-text-color text-lg'>NextJs</li>
                 </ul>
               </div>
 
               <div className='w-1/2'>
-                <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4 mb-2'>
+                <div className='font-bold capitalize  text-text-color text-2xl mt-4 mb-2'>
                   tools
                 </div>
                 <ul>
                   <li className='text-text-color text-lg '>Git/GitHub</li>
                   <li className='text-text-color text-lg '> Vs Code</li>
                   <li className='text-text-color  text-lg'>Command Line</li>
-
-                  <li className='text-text-color text-lg '>Firebase</li>
                 </ul>
               </div>
             </div>
@@ -101,10 +102,10 @@ const About = function () {
           <div>
             <Slide direction='up' triggerOnce>
               <div>
-                <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4'>
+                <div className='font-bold capitalize  text-text-color text-2xl mt-4'>
                   Ambrose Alli University
                 </div>
-                <div className='semi-bold capitalize tracking-widest  text-text-color text-base'>
+                <div className=' capitalize   text-text-color text-base'>
                   B.Eng Mechanical Engineering
                 </div>
                 <span className='text-text-color'>2014-2019</span>
@@ -123,14 +124,14 @@ const About = function () {
           <Slide direction='up' triggerOnce>
             <div className='grid grid-cols-1 md:flex '>
               <div className='md:w-1/2'>
-                <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4'>
+                <div className='font-bold capitalize  text-text-color text-2xl mt-4'>
                   IT Consultant
                 </div>
                 <span className='text-text-color'>2020-present</span>
               </div>
 
               <div className='md:w-1/2'>
-                <div className='font-semibold text-xl capitalize md:tracking-widest text-text-color md:text-2xl mt-4'>
+                <div className='font-semibold text-xl capitalize  text-text-color md:text-2xl mt-4'>
                   {' '}
                   Frontend Developer
                 </div>
@@ -144,7 +145,7 @@ const About = function () {
           <Slide direction='up' triggerOnce>
             <div className='grid grid-cols-1 md:flex'>
               <div className='md:w-1/2'>
-                <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4'>
+                <div className='font-bold capitalize  text-text-color text-2xl mt-4'>
                   {' '}
                   Nestle
                 </div>
@@ -152,7 +153,7 @@ const About = function () {
               </div>
 
               <div className='md:w-1/2'>
-                <div className='font-semibold text-xl capitalize md:tracking-widest text-text-color md:text-2xl mt-4'>
+                <div className='font-semibold text-xl capitalize text-text-color md:text-2xl mt-4'>
                   {' '}
                   Mechanical Engineer
                 </div>
@@ -167,7 +168,7 @@ const About = function () {
           <Slide direction='up' triggerOnce>
             <div className='grid grid-cols-1 md:flex'>
               <div className='md:w-1/2'>
-                <div className='font-semibold capitalize tracking-widest text-text-color text-2xl mt-4'>
+                <div className='font-bold capitalize  text-text-color text-2xl mt-4'>
                   {' '}
                   AltSchool Africa
                 </div>
@@ -175,7 +176,7 @@ const About = function () {
               </div>
 
               <div className='md:w-1/2'>
-                <div className='font-semibold text-xl capitalize md:tracking-widest text-text-color md:text-2xl mt-4'>
+                <div className='font-semibold text-xl capitalize  text-text-color md:text-2xl mt-4'>
                   {' '}
                   Frontend Developer Student
                 </div>

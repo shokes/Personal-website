@@ -19,7 +19,7 @@ const Contact = function () {
           </h4>
           <Slide direction='up' duration={200}>
             <a
-              className=' text-4xl lg:text-6xl font-semibold text-text-color underline mail'
+              className=' text-5xl lg:text-6xl font-semibold text-text-color underline underline-offset-4 mail'
               href='mailto:oyatioshoke@yahoo.com'
               target='_blank'
               rel='noreferrer'
@@ -37,14 +37,14 @@ const Contact = function () {
                 href='https://twitter.com/Airshokes'
                 target='_blank'
                 rel='noreferrer'
-                className='underline text-4xl lg:text-6xl  uppercase  text-text-color'
+                className='underline underline-offset-4 text-5xl lg:text-6xl  uppercase  text-text-color'
               >
                 Twitter
               </a>
             </Slide>
             <Slide direction='up' delay={400} duration={300} className=' mb-1'>
               <a
-                className='underline uppercase text-4xl lg:text-6xl  text-text-color '
+                className='underline underline-offset-4 uppercase text-5xl lg:text-6xl  text-text-color '
                 href='https://github.com/shokes'
                 target='_blank'
                 rel='noreferrer'
@@ -54,7 +54,7 @@ const Contact = function () {
             </Slide>
             <Slide direction='up' delay={600} duration={300} className=' mb-1'>
               <a
-                className='underline uppercase text-4xl lg:text-6xl text-text-color'
+                className='underline underline-offset-4 uppercase text-5xl lg:text-6xl text-text-color'
                 href='https://www.linkedin.com/in/oshoke-oyati?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7bIwlnH1TeKUJ6r3jWAS6g%3D%3D'
                 rel='noreferrer'
                 target='_blank'

@@ -32,7 +32,7 @@ const SingleWorkMore = function () {
       <nav className='  flex items-center justify-between text-text-color'>
         <Link
           to='/work'
-          className='text-xl lg:text-2xl  tracking-wider font-extrabold underline'
+          className='text-xl lg:text-2xl  tracking-wider font-extrabold underline underline-offset-4'
         >
           back to projects
         </Link>
@@ -65,12 +65,12 @@ const SingleWorkMore = function () {
           <div className='flex items-center '>
             {' '}
             <div className=' text-text-color capitalize w-1/4'>year :</div>
-            <span className=' text-text-color capitalize w-3/4'>{year}</span>
+            <span className=' text-text-color capitalize w-3/4'>{year}.</span>
           </div>
           <div className='flex items-center'>
             <div className='text-text-color capitalize w-1/4'>code : </div>
             <a
-              className='text-text-link font-medium  w-3/4 underline'
+              className='text-text-link font-medium  w-3/4 underline underline-offset-4'
               target='_blank'
               href={github}
               rel='noreferrer'
@@ -81,7 +81,7 @@ const SingleWorkMore = function () {
           <div className='flex items-center'>
             <div className=' text-text-color capitalize w-1/4'>live : </div>
             <a
-              className='text-text-link font-medium  w-3/4 underline'
+              className='text-text-link font-medium  w-3/4 underline underline-offset-4'
               target='_blank'
               href={website}
               rel='noreferrer'
@@ -128,7 +128,7 @@ const SingleWorkMore = function () {
                 <Link
                   to={`/work/${item.id}`}
                   key={item.id}
-                  className='mb-6 mr-2 text-text-link uppercase  para underline'
+                  className='mb-6 mr-2 text-text-link uppercase  para underline underline-offset-4'
                 >
                   {item.title},
                 </Link>
