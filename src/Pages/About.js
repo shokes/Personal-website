@@ -42,7 +42,7 @@ const About = function () {
 
               <a
                 className='bg-text-link text-background font-semibold px-2 py-1 rounded-lg hover:bg-white hover:text-black ease-in duration-300 '
-                href='https://drive.google.com/file/d/10N3JlKFdyuHUMmdgOy9NuXBjkhSJphEg/view'
+                href='https://drive.google.com/file/d/1XFaffEA1GGCd_RdK2xFsURu4qUJs-ZKe/view?usp=drivesdk'
                 target='_blank'
                 rel='noreferrer'
               >
