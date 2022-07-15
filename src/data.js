@@ -1,21 +1,15 @@
 import country from './Images/country rest.png';
-
-import overreacted from './Images/overreacted-clone-screenshot.png';
-import grocery from './Images/grocery-bud-app-screenshot.png';
 import omuwa from './Images/omuwa-photography.png';
 import portfolioV1 from './Images/portfolio-screenshot.png';
 import countryInfo from './Images/countryInfo.jpg';
-
 import photography from './Images/photography.jpg';
-import grocerypic from './Images/grocery.jpg';
-import dan from './Images/dan.jpg';
 import port from './Images/port1.png';
 import port2 from './Images/port2.png';
 import country2 from './Images/country2.png';
-
+import nextglass from './Images/nextglass.png';
+import nextglass2 from './Images/nextglass2.png';
+import nextGlass from './Images/nextGlass.jpg';
 import omuwa2 from './Images/omuwa2.png';
-import grocery2 from './Images/grocery2.png';
-import overreacted2 from './Images/overreacted2.png';
 import BGKICKS from './Images/30BGKICKS.jpg';
 import bgkicks1 from './Images/bgkicks1.png';
 import bgkicks2 from './Images/bgkicks2.png';
@@ -63,6 +57,26 @@ const projects = [
 
   {
     id: 3,
+    title: 'Next Glass',
+    image: nextglass,
+    image2: nextglass2,
+    desc: 'A minimal & beautiful NextJS personal blog with a nice glassmorphism ui coupled with sanity cms for content management.',
+    website: 'https://next-glass-gamma.vercel.app/',
+    github: 'https://github.com/shokes/Next-Glass',
+    stack: ['NextJS', 'React', 'TailwindCSS', 'Sanity CMS'],
+    role: 'Frontend development. ',
+    mainImage: nextGlass,
+    year: 2022,
+    para1:
+      'After getting a basic understanding of NextJS and a headless CMS, I wanted to build something with it and this was the result. I wanted the user interface to be minimal and beautiful and use the Glassmorphism design trend. I also wanted non-technical users to be able to add and update the site content easily. ',
+    para2:
+      'After checking several headless cms, I decided to choose Sanity because it is simple, has an intuitive content editor and generous pricing.',
+    para3:
+      'NextJS did not take long to get hold of because of its great docs, kudos to the team at vercel. After some googling, i was able to figure out connecting a CMS to it.',
+  },
+
+  {
+    id: 4,
     title: 'omuwa photography',
     image: omuwa,
     image2: omuwa2,
@@ -83,47 +97,7 @@ const projects = [
   },
 
   {
-    id: 4,
-    title: 'grocery bud',
-    image: grocery,
-    image2: grocery2,
-    desc: 'A grocery bud app with an alert functionality.',
-    website: 'https://shokes-grocery.netlify.app/',
-    github: 'https://github.com/shokes/Grocery-bud',
-    stack: ['React', 'CSS 3'],
-    role: 'Frontend development. ',
-    mainImage: grocerypic,
-    year: 2022,
-    para1:
-      'This is an application that stores the data you type into it with an alert functionality.',
-    para2:
-      'I used the local storage in the browser to store the data so that when the app is closed the data is not lost. The states were handled with useState.',
-    para3:
-      ' I used Css 3 for the styling. It was difficult building this project because it was one of the first React based project I worked on. ',
-  },
-
-  {
     id: 5,
-    title: 'Overreacted clone',
-    image: overreacted,
-    image2: overreacted2,
-    desc: "A clone of Dan Abramov's overreacted blog.",
-    website: 'https://dan-abramov-blog-clone.vercel.app/',
-    github: 'https://github.com/shokes/Dan-abramov-blog-clone',
-    stack: ['React', 'CSS 3'],
-    role: 'Frontend development. ',
-    mainImage: dan,
-    year: 2022,
-    para1:
-      'I was researching on the internet about react when i stumbled upon Dan’s blog and immediately fell in love with the simplicity and the color mix up.',
-    para2:
-      'I wanted to replicate it just for fun and to improve my skills as I had just started learning react. ',
-    para3:
-      'This was one of the first projects I worked on when I started learning React.',
-  },
-
-  {
-    id: 6,
     title: 'Previous portfolio',
     image: port,
     image2: port2,
