@@ -4,12 +4,12 @@ Built with ReactJS. - [Live Site](https://oshoke.vercel.app/)
 
 ![Screenshot of live site](./screenshot.png)
 
-Build Setup
+Local Install
 
 ```bash
 # Install dependencies
 npm install
 
-# Serve with hot reload at localhost:8000
+# Serve with reload at localhost:3000
 npm start
 ```
