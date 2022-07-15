@@ -60,7 +60,7 @@ const projects = [
     title: 'Next Glass',
     image: nextglass,
     image2: nextglass2,
-    desc: 'A minimal & beautiful NextJS personal blog with a nice glassmorphism ui coupled with sanity cms for content management.',
+    desc: 'A minimal and beautiful NextJS personal blog with a nice glassmorphism ui coupled with sanity cms for content management.',
     website: 'https://next-glass-gamma.vercel.app/',
     github: 'https://github.com/shokes/Next-Glass',
     stack: ['NextJS', 'React', 'TailwindCSS', 'Sanity CMS'],

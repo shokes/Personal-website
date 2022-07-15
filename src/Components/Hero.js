@@ -99,8 +99,9 @@ const Hero = function () {
               </h1>
 
               <p className='text-xl font-playfair text-text-color mb-3'>
-                A problem-solving language-learning beast, with the keen eye of
-                a growth engineer.📈
+                A problem-solving language-learning beast. With the keen eye of
+                a growth engineer, turning ideas into real life products is my
+                utmost priority.📈
               </p>
 
               <div className='flex space-x-4 mb-2'>
@@ -144,7 +145,7 @@ const Hero = function () {
         </Fade>
 
         <Slide direction='right' duration={1000}>
-          <div className='w-64 hidden  lg:block'>
+          <div className='w-64 hidden lg:block'>
             {theme === 'dark-theme' ? (
               <img src={cartoon} alt='cartoon' />
             ) : (

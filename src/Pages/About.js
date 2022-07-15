@@ -9,7 +9,7 @@ const About = function () {
   return (
     <section>
       <Navbar />
-      <div className='container mt-20 pb-20 pb-20 overflow-x-hidden'>
+      <div className='container mt-20 pb-10 overflow-x-hidden'>
         <h2 className='mb-12 text-3xl text-text-color   font-semibold tracking-wider'>
           <BsDashLg className='text-text-link mr-1 inline' />
           about
